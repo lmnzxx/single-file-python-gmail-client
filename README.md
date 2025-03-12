@@ -1,41 +1,40 @@
 # Python Single Page Gmail Client
 
-Python Single Page Gmail Client adalah script Python sederhana untuk mengirim dan membaca email dari Gmail menggunakan SMTP dan IMAP.
+Python Single Page Gmail Client is a simple Python script for sending and reading emails from Gmail using SMTP and IMAP.
 
-## 📌 Fitur
+## 📌 Features
 
-- 🔑 Login ke Gmail menggunakan SMTP dan IMAP
-- 📩 Kirim email dengan lampiran
-- 📬 Baca email dari **Inbox** dan **Sent Mail**
-- 🔍 Cari email berdasarkan keyword
-- 🔄 Mekanisme reconnect otomatis jika koneksi terputus
+- 🔑 Login to Gmail using SMTP and IMAP
+- 📩 Send emails with attachments
+- 📬 Read emails from **Inbox** and **Sent Mail**
+- 🔍 Search emails by keyword
+- 🔄 Automatic reconnect mechanism if the connection is lost
 
-## 🛠️ Instalasi
+## 🛠️ Installation
 
-Pastikan Python 3.x sudah terinstal, lalu jalankan perintah berikut untuk menginstal dependensi:
+Make sure Python 3.x is installed, then run the following command to install dependencies:
 
 ```sh
 pip install smtplib imaplib email getpass
 ```
 
-## 🚀 Cara Penggunaan
+## 🚀 Usage
 
-1. Jalankan script:
+1. Run the script:
    ```sh
    python gmailClient.py
    ```
-2. Masukkan alamat Gmail dan **App Password** (bukan password biasa).
-   > **Catatan:** Aktifkan **2FA** di akun Gmail lo, lalu buat **App Password** dari [Google Security](https://myaccount.google.com/security)
-3. Gunakan menu interaktif untuk mengirim atau membaca email.
+2. Enter your Gmail address and **App Password** (not your regular password).
+   > **Note:** Enable **2FA** on your Gmail account, then create an **App Password** from [Google Security](https://myaccount.google.com/security)
+3. Use the interactive menu to send or read emails.
 
-## 📧 Konfigurasi SMTP & IMAP
+## 📧 SMTP & IMAP Configuration
 
-Script ini menggunakan server Gmail default:
+This script uses Gmail's default servers:
 
 - **SMTP Server**: `smtp.gmail.com` (port `587`)
 - **IMAP Server**: `imap.gmail.com` (port `993`)
 
-## 📝 Lisensi
+## 📝 License
 
-Proyek ini menggunakan lisensi **MIT**. Silakan gunakan dan modifikasi sesuai kebutuhan.
-
+This project is licensed under the **MIT** license. Feel free to use and modify it as needed.
